@@ -13,7 +13,7 @@ class CicdApplicationTests {
     @Test
     void Add(){
         int num = myServ.add(1, 5);
-        assert num==7;
+        assert num==6;
         System.out.println("ai1");
     }
     
